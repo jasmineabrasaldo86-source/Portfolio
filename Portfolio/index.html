@@ -1,0 +1,625 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jasmine Valdez Abrasaldo — IT student, developer, and technology enthusiast.">
+  <title>Jasmine Valdez Abrasaldo | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="#home" class="logo">J<span>A</span></a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav id="navMenu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#profdev">ProfDev</a>
+      <a href="#contact" class="nav-contact">Contact ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section-container" id="home">
+      <div class="hero-content">
+        <div class="availability">
+          <span class="pulse"></span>
+          BSIT STUDENT
+        </div>
+
+        <p class="intro">HELLO, I'M</p>
+
+        <h1>Jasmine<br>
+          <span class="gradient-text">Abrasaldo.</span>
+        </h1>
+
+        <p class="hero-description">
+            An aspiring IT professional passionate about exploring technology,
+            developing creative solutions, and building digital experiences.
+            I’m continuously learning and improving my skills through academic
+            projects, hands-on practice, and new challenges.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            Explore my work <span>↗</span>
+          </a>
+          <a href="#about" class="btn btn-secondary">
+            Get to know me
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="glow glow-one"></div>
+        <div class="glow glow-two"></div>
+        <div class="circle circle-one"></div>
+        <div class="circle circle-two"></div>
+
+        <div class="profile-frame">
+          <img
+            src="assets/images/profile.jpeg"
+            alt="Jasmine V. Abrasaldo"
+            onerror="this.style.display='none'; document.getElementById('photoFallback').style.display='grid';"
+          >
+        </div>
+
+        <div class="floating-card floating-bottom">
+          <span class="code-icon">&lt;/&gt;</span>
+          <div>
+            <strong>Future IT Professional</strong>
+            <small>Learn · Build · Improve</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section section-container" id="about">
+      <div class="section-label">01 / ABOUT ME</div>
+
+      <div class="about-grid">
+        <div>
+          <h2 class="section-title">
+            Curious mind.<br>
+            <span class="gradient-text">Creative problem-solver.</span>
+          </h2>
+          <p class="muted-text">A little about who I am and what I love to do.</p>
+        </div>
+
+        <div class="about-text">
+          
+        <div class="about-text">
+        <p>
+            I am an Information Technology student at Northeastern College
+            with an interest in understanding how technology can make tasks
+            easier and solve everyday challenges. Through my studies, I am
+            developing the knowledge and skills needed to create practical
+            and reliable digital solutions.
+        </p>
+
+        <p>
+            I enjoy exploring different areas of IT, especially website
+            creation, application development, database management, and
+            computer networking. I believe that every project is an
+            opportunity to learn, experiment, and discover better ways
+            to approach a problem.
+        </p>
+
+        <p>
+            My goal is to continue growing as a future IT professional by
+            strengthening my technical abilities, improving my problem-solving
+            skills, and gaining experience through meaningful projects and
+            professional development activities.
+        </p>
+
+          <div class="interest-tags">
+            <span>Web Development</span>
+            <span>Mobile Apps</span>
+            <span>Databases</span>
+             <span>Networking</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section section-container" id="education">
+      <div class="section-label">02 / EDUCATION</div>
+      <h2 class="section-title">My learning <span class="gradient-text">journey.</span></h2>
+
+      <div class="education-card">
+        <div class="timeline-dot"></div>
+        <div class="education-content">
+          <span class="small-label">CURRENT EDUCATION</span>
+          <h3>Bachelor of Science in Information Technology</h3>
+          <h4>Northeastern College</h4>
+          <span class="education-status">Undergraduate Student</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section section-container" id="skills">
+      <div class="section-label">03 / TECHNICAL SKILLS</div>
+      <h2 class="section-title">My current <span class="gradient-text">toolkit.</span></h2>
+      <p class="section-description">
+        Technologies and concepts I am learning and applying in my projects.
+      </p>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <div class="skill-icon">&lt;/&gt;</div>
+          <h3>Web Development</h3>
+          <p>Building structured websites and responsive interfaces.</p>
+          <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span></div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">▣</div>
+          <h3>Application Development</h3>
+          <p>Designing application screens and interactive user experiences.</p>
+          <div class="tag-list"><span>Flutter</span><span>Dart</span><span>UI Design</span></div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">▤</div>
+          <h3>Database Management</h3>
+          <p>Organizing, storing, and retrieving application data.</p>
+          <div class="tag-list"><span>MySQL</span></div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">⌁</div>
+          <h3>Networking & Tools</h3>
+          <p>Learning network fundamentals and software development workflows.</p>
+          <div class="tag-list"><span>Networking</span><span>Git</span><span>VS Code</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section section-container" id="projects">
+      <div class="section-label">04 / MY PROJECTS</div>
+
+      <h2 class="section-title">
+        Featured <span class="gradient-text">Projects.</span>
+      </h2>
+
+      <p class="section-description">
+        Explore projects I have worked on, including web development,
+        mobile application development, and hardware automation.
+      </p>
+
+      <div class="projects-grid">
+
+        <!-- PROJECT 1: INVENTORY MANAGEMENT WEBSITE -->
+        <article class="project-card project-large">
+          <div class="project-preview">
+            <img
+              src="assets/images/Website.png"
+              alt="Screenshot of the Inventory Management Website"
+              loading="lazy"
+            >
+            <span class="preview-number">PROJECT 01</span>
+          </div>
+
+          <div class="project-info">
+            <span class="project-overline">WEB DEVELOPMENT</span>
+            <h3>Inventory Management Website</h3>
+
+            <p>
+              A web-based inventory management system designed to organize
+              item records and help manage inventory information efficiently.
+            </p>
+
+            <div class="tag-list">
+              <span>PHP</span>
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Database</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT 2: INVENTORY MANAGEMENT APPLICATION -->
+        <article class="project-card">
+          <div class="project-preview">
+            <img
+              src="assets/images/Application.jpeg"
+              alt="Screenshot of the Flutter Inventory Management Application"
+              loading="lazy"
+            >
+            <span class="preview-number">PROJECT 02</span>
+          </div>
+
+          <div class="project-info">
+            <span class="project-overline">MOBILE APPLICATION</span>
+            <h3>Inventory Management Application</h3>
+
+            <p>
+              A Flutter-based inventory application with a mobile-friendly
+              interface for accessing inventory features and managing
+              item information.
+            </p>
+
+            <div class="tag-list">
+              <span>Flutter</span>
+              <span>Dart</span>
+              <span>API Integration</span>
+              <span>Database</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT 3: ARDUINO OPEN GATE BARRIER -->
+        <article class="project-card">
+          <div class="project-preview">
+            <img
+              src="assets/images/Arduino.jpeg"
+              alt="Photograph of the Arduino Open Gate Barrier project"
+              loading="lazy"
+            >
+            <span class="preview-number">PROJECT 03</span>
+          </div>
+
+          <div class="project-info">
+            <span class="project-overline">HARDWARE &amp; AUTOMATION</span>
+            <h3>Open Gate Barrier Arduino</h3>
+
+            <p>
+              An Arduino-based gate barrier project that explores electronic
+              components, microcontroller programming, and automated gate control.
+            </p>
+
+            <div class="tag-list">
+              <span>Arduino</span>
+              <span>C/C++</span>
+              <span>Electronics</span>
+              <span>Automation</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+
+
+    <!-- PROFESSIONAL DEVELOPMENT -->
+    
+    <section class="section section-container" id="profdev">
+      <div class="section-label">05 / PROFESSIONAL DEVELOPMENT</div>
+
+      <h2 class="section-title">
+        My certificates<span class="gradient-text">.</span>
+      </h2>
+
+      <p class="section-description">
+        A collection of seminars, training sessions, webinars, and courses
+        that have contributed to my learning and professional development.
+      </p>
+
+      <div class="certificate-slider" id="certificateSlider">
+
+        <div class="certificate-slider-top">
+          <span class="slider-label">CERTIFICATE COLLECTION</span>
+          <span class="slider-counter" id="certificateCounter">01 / 16</span>
+        </div>
+
+        <div class="certificate-viewport">
+
+          <!-- CERTIFICATE 01 -->
+          <article class="certificate-slide active">
+            <div class="certificate-preview">
+              <img src="assets/certificates/Agentic AI.png"
+                  alt="Agentic AI certificate" loading="lazy">
+            </div>
+            <div class="certificate-details">
+              <span class="small-label">CERTIFICATE 01 OF 16</span>
+              <h3>Agentic AI</h3>
+              <p class="certificate-description">
+                A certificate related to Agentic AI and its concepts.
+              </p>
+            </div>
+          </article>
+
+          <!-- CERTIFICATE 02 -->
+          <article class="certificate-slide">
+            <div class="certificate-preview">
+              <img src="assets/certificates/Canva Infinity.png"
+                  alt="Canva Infinity certificate" loading="lazy">
+            </div>
+            <div class="certificate-details">
+              <span class="small-label">CERTIFICATE 02 OF 16</span>
+              <h3>Canva Infinity</h3>
+              <p class="certificate-description">
+                A certificate related to Canva and creative digital design.
+              </p>
+            </div>
+          </article>
+
+          <!-- CERTIFICATE 03 -->
+          <article class="certificate-slide">
+            <div class="certificate-preview">
+              <img src="assets/certificates/Digital Trust in the AI Era.png"
+                  alt="Digital Trust in the AI Era certificate" loading="lazy">
+            </div>
+            <div class="certificate-details">
+              <span class="small-label">CERTIFICATE 03 OF 16</span>
+              <h3>Digital Trust in the AI Era</h3>
+              <p class="certificate-description">
+                A certificate related to digital trust in the era of artificial intelligence.
+              </p>
+            </div>
+          </article>
+
+          <!-- CERTIFICATE 04 -->
+          <article class="certificate-slide">
+            <div class="certificate-preview">
+              <img src="assets/certificates/Foundational Csharp.png"
+                  alt="Foundational C sharp certificate" loading="lazy">
+            </div>
+            <div class="certificate-details">
+              <span class="small-label">CERTIFICATE 04 OF 16</span>
+              <h3>Foundational C#</h3>
+              <p class="certificate-description">
+                A certificate related to foundational C# programming concepts.
+              </p>
+            </div>
+          </article>
+
+          <!-- CERTIFICATE 05 -->
+          <article class="certificate-slide">
+            <div class="certificate-preview">
+              <img src="assets/certificates/Integrating IoT in Capstone Project.png"
+                  alt="Integrating IoT in Capstone Project certificate" loading="lazy">
+            </div>
+            <div class="certificate-details">
+              <span class="small-label">CERTIFICATE 05 OF 16</span>
+              <h3>Integrating IoT in Capstone Project</h3>
+              <p class="certificate-description">
+                A certificate related to integrating Internet of Things technology into a capstone project.
+              </p>
+            </div>
+          </article>
+
+          <!-- CERTIFICATE 06 -->
+          <article class="certificate-slide">
+            <div class="certificate-preview">
+              <img src="assets/certificates/Introduction to CyberSecurity.png"
+                  alt="Introduction to CyberSecurity certificate" loading="lazy">
+            </div>
+            <div class="certificate-details">
+              <span class="small-label">CERTIFICATE 06 OF 16</span>
+              <h3>Introduction to CyberSecurity</h3>
+              <p class="certificate-description">
+                A certificate related to introductory cybersecurity concepts and practices.
+              </p>
+            </div>
+          </article>
+
+          <!-- CERTIFICATE 07 -->
+          <article class="certificate-slide">
+            <div class="certificate-preview">
+              <img src="assets/certificates/Networking Basics.png"
+                  alt="Networking Basics certificate" loading="lazy">
+            </div>
+            <div class="certificate-details">
+              <span class="small-label">CERTIFICATE 07 OF 16</span>
+              <h3>Networking Basics</h3>
+              <p class="certificate-description">
+                A certificate related to fundamental computer networking concepts.
+              </p>
+            </div>
+          </article>
+
+          <!-- CERTIFICATE 08 -->
+          <article class="certificate-slide">
+            <div class="certificate-preview">
+              <img src="assets/certificates/Press start GameDev.png"
+                  alt="Press Start GameDev certificate" loading="lazy">
+            </div>
+            <div class="certificate-details">
+              <span class="small-label">CERTIFICATE 08 OF 16</span>
+              <h3>Press Start GameDev</h3>
+              <p class="certificate-description">
+                A certificate related to game development and its introductory concepts.
+              </p>
+            </div>
+          </article>
+
+          <!-- CERTIFICATE 09 -->
+          <article class="certificate-slide">
+            <div class="certificate-preview">
+              <img src="assets/certificates/Press start GameDev2.png"
+                  alt="Press Start GameDev second certificate" loading="lazy">
+            </div>
+            <div class="certificate-details">
+              <span class="small-label">CERTIFICATE 09 OF 16</span>
+              <h3>Press Start GameDev 2</h3>
+              <p class="certificate-description">
+                An additional certificate related to game development.
+              </p>
+            </div>
+          </article>
+
+          <!-- CERTIFICATE 10 -->
+          <article class="certificate-slide">
+            <div class="certificate-preview">
+              <img src="assets/certificates/Programming fundamentals.png"
+                  alt="Programming Fundamentals certificate" loading="lazy">
+            </div>
+            <div class="certificate-details">
+              <span class="small-label">CERTIFICATE 10 OF 16</span>
+              <h3>Programming Fundamentals</h3>
+              <p class="certificate-description">
+                A certificate related to basic programming principles and problem-solving.
+              </p>
+            </div>
+          </article>
+
+          <!-- CERTIFICATE 11 -->
+          <article class="certificate-slide">
+            <div class="certificate-preview">
+              <img src="assets/certificates/Tesda 1.png"
+                  alt="TESDA certificate 1" loading="lazy">
+            </div>
+            <div class="certificate-details">
+              <span class="small-label">CERTIFICATE 11 OF 16</span>
+              <h3>TESDA Certificate 1</h3>
+            </div>
+          </article>
+
+          <!-- CERTIFICATE 12 -->
+          <article class="certificate-slide">
+            <div class="certificate-preview">
+              <img src="assets/certificates/Tesda 2.png"
+                  alt="TESDA certificate 2" loading="lazy">
+            </div>
+            <div class="certificate-details">
+              <span class="small-label">CERTIFICATE 12 OF 16</span>
+              <h3>TESDA Certificate 2</h3>
+            </div>
+          </article>
+
+          <!-- CERTIFICATE 13 -->
+          <article class="certificate-slide">
+            <div class="certificate-preview">
+              <img src="assets/certificates/Tesda 3.png"
+                  alt="TESDA certificate 3" loading="lazy">
+            </div>
+            <div class="certificate-details">
+              <span class="small-label">CERTIFICATE 13 OF 16</span>
+              <h3>TESDA Certificate 3</h3>
+            </div>
+          </article>
+
+          <!-- CERTIFICATE 14 -->
+          <article class="certificate-slide">
+            <div class="certificate-preview">
+              <img src="assets/certificates/Tesda 4.png"
+                  alt="TESDA certificate 4" loading="lazy">
+            </div>
+            <div class="certificate-details">
+              <span class="small-label">CERTIFICATE 14 OF 16</span>
+              <h3>TESDA Certificate 4</h3>
+            </div>
+          </article>
+
+          <!-- CERTIFICATE 15 -->
+          <article class="certificate-slide">
+            <div class="certificate-preview">
+              <img src="assets/certificates/Tesda 5.png"
+                  alt="TESDA certificate 5" loading="lazy">
+            </div>
+            <div class="certificate-details">
+              <span class="small-label">CERTIFICATE 15 OF 16</span>
+              <h3>TESDA Certificate 5</h3>
+            </div>
+          </article>
+
+          <!-- CERTIFICATE 16 -->
+          <article class="certificate-slide">
+            <div class="certificate-preview">
+              <img src="assets/certificates/Video Editing Tips & Tricks.png"
+                  alt="Video Editing Tips and Tricks certificate" loading="lazy">
+            </div>
+            <div class="certificate-details">
+              <span class="small-label">CERTIFICATE 16 OF 16</span>
+              <h3>Video Editing Tips &amp; Tricks</h3>
+              <p class="certificate-description">
+                A certificate related to video editing techniques and creative media production.
+              </p>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="certificate-slider-controls">
+          <div class="certificate-dots" id="certificateDots">
+            <button class="certificate-dot active" aria-label="Show certificate 1"></button>
+            <button class="certificate-dot" aria-label="Show certificate 2"></button>
+            <button class="certificate-dot" aria-label="Show certificate 3"></button>
+          </div>
+
+          <div class="certificate-arrows">
+            <button type="button" id="certificatePrev"
+                    class="slider-arrow" aria-label="Previous certificate">←</button>
+            <button type="button" id="certificateNext"
+                    class="slider-arrow" aria-label="Next certificate">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- RESUME -->
+    <section class="section section-container" id="resume">
+      <div class="resume-panel">
+        <div class="resume-content">
+          <div class="section-label">07 / MY RÉSUMÉ</div>
+          <h2 class="section-title">A little more <span class="gradient-text">about my journey.</span></h2>
+          
+            <p>
+            My resume provides an overview of my educational background,
+            technical knowledge, project experience, and developing
+            professional skills. Download a copy to learn more about
+            my qualifications and interests.
+            </p>
+
+          <a href="assets/resume/resume.pdf" class="btn btn-primary" download>
+            Download resume PDF ↓
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section-container" id="contact">
+      <div class="section-label">08 / CONTACT</div>
+      <div class="contact-grid">
+        <div>
+          <h2 class="section-title">Let's create something<br><span class="gradient-text">meaningful.</span></h2>
+          <p>
+            I'm always interested in learning, collaborating, and connecting
+            with people who share an interest in technology.
+          </p>
+        </div>
+
+        <div class="contact-list">
+          <a href="mailto:your.email@example.com">
+            <span>Email</span><strong>jasmineabrasaldo86@gmail.com ↗</strong>
+          </a>
+          <a href="https://github.com/jasmineabrasaldo86-source/" target="_blank" rel="noopener">
+            <span>GitHub</span><strong>Visit my profile ↗</strong>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#home" class="logo">J<span>A</span></a>
+    <p>Designed with purpose. Built while learning.</p>
+    <a href="#home" class="back-top">Back to top ↑</a>
+    <small>© <span id="year"></span> Jasmine Valdez Abrasaldo. All rights reserved.</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
